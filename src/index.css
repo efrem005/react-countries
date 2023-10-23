@@ -40,3 +40,18 @@ body {
   font-weight: var(--fw-light);
   background-color: var(--colors-bg);
 }
+
+.icon-react {
+  animation: anime-rotate 8.2s linear infinite;
+  font-size: 10rem;
+  color: grey;
+}
+
+@keyframes anime-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
